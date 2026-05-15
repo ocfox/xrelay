@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "xrelay",
+  "main": "server.ts",
+  // "route": {
+  //   "custom_domain": true,
+  //   "pattern": "xrelay.s4r.in"
+  // },
+  "compatibility_date": "2026-05-15",
+  "vars": {
+    "SUBSTITUTERS": "https://cache.garnix.io https://cache.nixos.org",
+    "PRIORITY": "40"
+  }
+}
